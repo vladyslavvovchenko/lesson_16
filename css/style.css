@@ -68,14 +68,20 @@ body{
         position: fixed;
         inset-block-start: 0;
         inset-inline-start: 100%;
-        inline-size: 80px;
-        block-size: 100%;
+        inline-size: 100%;
+        block-size: 82px;
         transition: inset-inline-start 0.3s;
         background-color: #28293E;
         z-index: 3;
 
     }
 }
+
+.open-menu body {
+  overflow: hidden;
+}
+/* для вимкнення прокручування сторінки, 
+коли меню бургер відкрите */
 
 .open-menu .menu-body,
 .open-menu .menu-body::before {
